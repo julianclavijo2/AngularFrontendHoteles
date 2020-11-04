@@ -1,0 +1,34 @@
+.bg-dark{
+    width: 100%;
+}
+/*.navbar{
+    top:0px;
+    position: fixed;
+    z-index: 1;
+}*/
+
+#hotel{
+    width: 78%;
+    color: aliceblue;
+}
+
+#menu{
+    padding-left: 40%;
+}
+
+.asearch{
+    border-left:  2px solid azure;
+}
+
+@media(max-width:980px){
+    #menu{
+        padding-left: 3%;
+    }
+
+    .asearch{
+        border-left:  2px solid #343a40;
+    }
+}
+
+
+

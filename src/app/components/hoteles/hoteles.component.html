@@ -1,0 +1,20 @@
+
+<div class="container">
+  <div class="row">
+
+  <div *ngFor="let hotel of hoteles" class="card col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+    <img id="hotelImg" [src]="hotel.img" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{hotel.nombrehotel}}</h5>
+      <p class="card-text"><img id="hotel" src="https://w7.pngwing.com/pngs/752/410/png-transparent-red-location-icon-google-maps-katsuya-locator-map-flag-map-icon-apartment-map-location.png" class="card-img-top" alt="...">Ubicacion : {{hotel.ubicacion}}.</p>
+      <p class="card-text"><small class="text-muted"><img id="star" src="https://img2.freepng.es/20180131/gye/kisspng-red-star-five-pointed-star-icon-star-vector-5a71be6a723fa1.004229331517403754468.jpg" class="card-img-top" alt="..."> Estrellas : {{hotel.estrellas}}</small></p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+  
+  
+
+  
